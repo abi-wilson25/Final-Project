@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Get Lost</title>
+    <link rel="icon" type="image/png" href="https://files.slack.com/files-pri/T6J5V8VA4-F6Q7VQPBN/screen_shot_2017-08-18_at_4.18.59_am.png"sizes="16x16">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel = "stylesheet" href = "css/style2.css"></link>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Khula" rel="stylesheet">
+  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <a class="navbar-brand" href="#page-top" style="color:black;">Get Lost</a>
+        
+        <i class="fa fa-bars"></i>
+      
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+      </div>
+    </nav>
+  </head>
+  <body>
+    <div class="header">
+      <h1><%=@statement%></h1>
+    </div>
+   <div class="text">
+    <%@answer.each do |name,address| %>
+     <h2><span class = "nametext"><%=name%>:</span> <%=address%></h2>
+        <% end %>
+   </div>
+  </body>
+</html>

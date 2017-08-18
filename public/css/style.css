@@ -1,0 +1,45 @@
+
+
+
+li {
+    /*color: #;*/
+}
+
+.creators{
+    color:white;
+    
+    width:45%;
+}
+.name{
+    
+    border:1px white;
+    
+}
+
+.list{
+    background:white;
+    text-align:center;
+    width:45%;
+    display:inline-block;
+    float:left;
+    margin:2%;
+}
+
+.col1{
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+    color:white;
+    border:10px;
+    border-color:#9CB2B8; 
+  
+}
+
+.music{
+    width: 70%;
+
+}
+.titlemusic{
+    font-size:40px;
+    
+}
